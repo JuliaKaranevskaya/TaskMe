@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59DE9FDCB14FF6745F974374 /* Pods_TaskMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C45B9EDCEAD58847B77C5CE /* Pods_TaskMe.framework */; };
 		C1ED6BEC26BEBE8500DC36E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6BEB26BEBE8500DC36E4 /* AppDelegate.swift */; };
 		C1ED6BEE26BEBE8500DC36E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6BED26BEBE8500DC36E4 /* SceneDelegate.swift */; };
-		C1ED6BF026BEBE8500DC36E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6BEF26BEBE8500DC36E4 /* ViewController.swift */; };
+		C1ED6BF026BEBE8500DC36E4 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6BEF26BEBE8500DC36E4 /* SectionViewController.swift */; };
 		C1ED6BF326BEBE8500DC36E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ED6BF126BEBE8500DC36E4 /* Main.storyboard */; };
 		C1ED6BF526BEBE8B00DC36E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ED6BF426BEBE8B00DC36E4 /* Assets.xcassets */; };
 		C1ED6BF826BEBE8B00DC36E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ED6BF626BEBE8B00DC36E4 /* LaunchScreen.storyboard */; };
+		C1ED6C0026BEC12A00DC36E4 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6BFF26BEC12A00DC36E4 /* SectionModel.swift */; };
+		C1ED6C0226BEC35800DC36E4 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6C0126BEC35800DC36E4 /* TaskViewController.swift */; };
+		C1ED6C0426BEC38800DC36E4 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ED6C0326BEC38800DC36E4 /* TaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C45B9EDCEAD58847B77C5CE /* Pods_TaskMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B240A2BD1673A7C167E3BFC /* Pods-TaskMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMe.debug.xcconfig"; path = "Target Support Files/Pods-TaskMe/Pods-TaskMe.debug.xcconfig"; sourceTree = "<group>"; };
 		C1ED6BE826BEBE8500DC36E4 /* TaskMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ED6BEB26BEBE8500DC36E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1ED6BED26BEBE8500DC36E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1ED6BEF26BEBE8500DC36E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1ED6BEF26BEBE8500DC36E4 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
 		C1ED6BF226BEBE8500DC36E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1ED6BF426BEBE8B00DC36E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1ED6BF726BEBE8B00DC36E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1ED6BF926BEBE8B00DC36E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ED6BFF26BEC12A00DC36E4 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		C1ED6C0126BEC35800DC36E4 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		C1ED6C0326BEC38800DC36E4 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		CA94E4BDB938C660447E5F18 /* Pods-TaskMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskMe.release.xcconfig"; path = "Target Support Files/Pods-TaskMe/Pods-TaskMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DE9FDCB14FF6745F974374 /* Pods_TaskMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E54A575989FD854D27B512F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C45B9EDCEAD58847B77C5CE /* Pods_TaskMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83FD4EF55D77A2203FB85EA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B240A2BD1673A7C167E3BFC /* Pods-TaskMe.debug.xcconfig */,
+				CA94E4BDB938C660447E5F18 /* Pods-TaskMe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C1ED6BDF26BEBE8500DC36E4 = {
 			isa = PBXGroup;
 			children = (
 				C1ED6BEA26BEBE8500DC36E4 /* TaskMe */,
 				C1ED6BE926BEBE8500DC36E4 /* Products */,
+				83FD4EF55D77A2203FB85EA2 /* Pods */,
+				3E54A575989FD854D27B512F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +88,10 @@
 			children = (
 				C1ED6BEB26BEBE8500DC36E4 /* AppDelegate.swift */,
 				C1ED6BED26BEBE8500DC36E4 /* SceneDelegate.swift */,
-				C1ED6BEF26BEBE8500DC36E4 /* ViewController.swift */,
+				C1ED6BEF26BEBE8500DC36E4 /* SectionViewController.swift */,
+				C1ED6C0126BEC35800DC36E4 /* TaskViewController.swift */,
+				C1ED6BFF26BEC12A00DC36E4 /* SectionModel.swift */,
+				C1ED6C0326BEC38800DC36E4 /* TaskModel.swift */,
 				C1ED6BF126BEBE8500DC36E4 /* Main.storyboard */,
 				C1ED6BF426BEBE8B00DC36E4 /* Assets.xcassets */,
 				C1ED6BF626BEBE8B00DC36E4 /* LaunchScreen.storyboard */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1ED6BFC26BEBE8B00DC36E4 /* Build configuration list for PBXNativeTarget "TaskMe" */;
 			buildPhases = (
+				06ABFA5EE7E27AC6F8C396F9 /* [CP] Check Pods Manifest.lock */,
 				C1ED6BE426BEBE8500DC36E4 /* Sources */,
 				C1ED6BE526BEBE8500DC36E4 /* Frameworks */,
 				C1ED6BE626BEBE8500DC36E4 /* Resources */,
+				F3A734DBEAA89070F496B8C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +167,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06ABFA5EE7E27AC6F8C396F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A734DBEAA89070F496B8C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskMe/Pods-TaskMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskMe/Pods-TaskMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskMe/Pods-TaskMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1ED6BE426BEBE8500DC36E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1ED6BF026BEBE8500DC36E4 /* ViewController.swift in Sources */,
+				C1ED6C0426BEC38800DC36E4 /* TaskModel.swift in Sources */,
+				C1ED6BF026BEBE8500DC36E4 /* SectionViewController.swift in Sources */,
 				C1ED6BEC26BEBE8500DC36E4 /* AppDelegate.swift in Sources */,
+				C1ED6C0226BEC35800DC36E4 /* TaskViewController.swift in Sources */,
 				C1ED6BEE26BEBE8500DC36E4 /* SceneDelegate.swift in Sources */,
+				C1ED6C0026BEC12A00DC36E4 /* SectionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +363,7 @@
 		};
 		C1ED6BFD26BEBE8B00DC36E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B240A2BD1673A7C167E3BFC /* Pods-TaskMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		C1ED6BFE26BEBE8B00DC36E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA94E4BDB938C660447E5F18 /* Pods-TaskMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
